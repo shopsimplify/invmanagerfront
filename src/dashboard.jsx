@@ -4,9 +4,6 @@ function DashBoard() {
     return (
         <>
             <h1>This is your Dashboard</h1>
-        
-        
-        
         </>
 
     )
