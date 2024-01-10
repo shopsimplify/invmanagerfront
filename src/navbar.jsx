@@ -4,10 +4,9 @@ function NavBar() {
     return (
         <>
             <div class="navbar">
-                <a class="active" href="#home">Home</a>
-                <a href="#dashboard">Dashboard</a>
-                <a href="#reports">Reports</a>
-                <a href="#settings">Settings</a>
+                <a class="active" href="#dashboard">Dashboard</a>
+                <a href="#products">Products</a>
+                <a href="#about">About</a>
             </div>
         </>
     )
