@@ -3,7 +3,7 @@ function Products() {
     return (
         <div class="dashboard">
 
-            <div class="sidebar">
+            <div className="sidebar">
                 <h2>Categories</h2>
                 <ul>
                     <li>Electronics</li>
