@@ -1,12 +1,9 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import DashBoard from './Components/dashboard.jsx'
-import NavBar from './Components/navbar.jsx'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App.jsx";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <NavBar />
-    <DashBoard />
-  </React.StrictMode>,
-)
-
+   <App/>
+  </React.StrictMode>
+);

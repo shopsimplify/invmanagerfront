@@ -1,7 +1,7 @@
-function Products() {
+const Products = ()=> {
 
     return (
-        <div class="dashboard">
+        <div className="product">
 
             <div className="sidebar">
                 <h2>Categories</h2>
@@ -14,7 +14,7 @@ function Products() {
             </div>
             {/* <!-- Add more inventory items as needed --> */}
 
-            <a href="#add-item" class="cta-button">Add New Item</a>
+            <a href="#add-item" className="cta-button">Add New Item</a>
         </div>
     )
 
