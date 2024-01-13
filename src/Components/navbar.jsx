@@ -20,6 +20,11 @@ const NavBar =()=> {
               About
             </Link>
           </li>
+          <li className="mr-2">
+            <Link className="acttext-center text-fuchsia-500 hover:text-fuchsia-800" to="/contactus">
+              Contact Us
+            </Link>
+          </li>
         </ul>
       </nav>
     </>
