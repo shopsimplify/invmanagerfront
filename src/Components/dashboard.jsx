@@ -12,12 +12,6 @@ const DashBoard = () => {
 
   return (
     <>
-      <input
-        className="bg-emerald-600  absolute top-0 right-0 h-16 w-16 rounded-3xl"
-        type="button"
-        value="Theme"
-        onClick={() => setTheme("black")}
-      />
       <div
         className="container mx-auto px-4 py-8"
         style={{ backgroundColor: theme }}

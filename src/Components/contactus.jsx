@@ -14,21 +14,22 @@ const ContactUs = () => {
 
   return (
     <div className="">
-      <h1 className="text-blue-500 text-center ">Contact Us</h1>
+      <h1 className="text-blue-500 text-center text-5xl">Contact Us</h1>
       <form onSubmit={handleSubmit} className="">
         <div className="flex justify-center m-2">
           <input
-            className="mr-2 border-2 border-blue-500"
             placeholder="Name"
             type="text"
             id="name"
             value={name}
             onChange={(e) => setName(e.target.value)}
+            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required
+
           />
         </div>
         <div className="flex justify-center m-2">
           <input
-            className="mr-2 border-2 border-blue-500"
+            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required
             placeholder="Contact Number"
             type="text"
             id="contactNumber"
@@ -36,9 +37,9 @@ const ContactUs = () => {
             onChange={(e) => setContactNumber(e.target.value)}
           />
         </div>
-        <div className="flex justify-center m-2">
+        <div className="flex justify-center m-2 ">
           <input
-            className="mr-2 border-2 border-blue-500"
+            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required
             placeholder="Email ID"
             type="email"
             id="email"
@@ -48,33 +49,33 @@ const ContactUs = () => {
         </div>
 
         <div className="flex justify-center m-2">
-          <input
-            className="mr-2 border-2 border-blue-500"
-            placeholder="Address"
-            type="text"
-            id="address"
+          <textarea id="address"
             value={address}
             onChange={(e) => setAddress(e.target.value)}
-          />
+            rows="4" 
+            className="block p-2  text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Eneter your address"></textarea>
         </div>
 
         <div className="flex justify-center m-2" >
           <textarea
-            className="border-2 border-blue-500 "
+            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required
             placeholder="Query"
             id="query"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
           ></textarea>
+
+
+
         </div>
 
         <div className="flex justify-center " >
-        <button
-          className="m-2 text-yellow-100 hover:text-yellow-500 border-2 border-yellow-500 bg-yellow-500 hover:bg-yellow-100"
-          type="submit"
-        >
-          Submit
-        </button>
+          <button
+            className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+            type="submit"
+          >
+            Submit
+          </button>
         </div>
       </form>
     </div>
