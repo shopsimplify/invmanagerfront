@@ -1,9 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+import DashBoard from './Components/dashboard.jsx'
+import NavBar from './Components/navbar.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    
- <App/>
+  <React.StrictMode>
+    <NavBar />
+    <DashBoard />
+  </React.StrictMode>,
+)
 
-) 
