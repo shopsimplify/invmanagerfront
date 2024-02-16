@@ -8,7 +8,8 @@ const DashBoard = () => {
     setCounter(counter);
   };
 
-  const [theme, setTheme] = useState(`grey`);
+  const [theme, setTheme] = useState(`skyblue`);
+
 
   return (
     <>

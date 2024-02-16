@@ -65,8 +65,6 @@ const ContactUs = () => {
             onChange={(e) => setQuery(e.target.value)}
           ></textarea>
 
-
-
         </div>
 
         <div className="flex justify-center " >
