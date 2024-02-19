@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <>
-      <nav className="bg-slate-800 h-8">
+      <nav className="bg-slate-800 h-8 m-1">
         <ul className="flex">
           <li className="mr-16">
             <Link className="text-center text-2xl text-fuchsia-500 hover:text-fuchsia-800" to="/dashboard">
